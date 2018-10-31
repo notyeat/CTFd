@@ -85,17 +85,17 @@
 					{% if username is defined %}
 						{% if admin %}
 							<li class="nav-item">
-								<a class="nav-link" href="{{ request.script_root }}/admin">Admin</a>
+								<a class="nav-link" href="{{ request.script_root }}/admin">管理</a>
 							</li>
 						{% endif %}
 						<li class="nav-item">
 							<a class="nav-link" href="{{ request.script_root }}/team">团队</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="{{ request.script_root }}/profile">Profile</a>
+							<a class="nav-link" href="{{ request.script_root }}/profile">设置</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="{{ request.script_root }}/logout">Logout</a>
+							<a class="nav-link" href="{{ request.script_root }}/logout">退出</a>
 						</li>
 					{% else %}
 						{% if can_register() %}

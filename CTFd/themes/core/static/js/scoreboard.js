@@ -35,7 +35,7 @@ function scoregraph () {
         if (Object.keys(places).length === 0 ){
             // Replace spinner
             $('#score-graph').html(
-                '<div class="text-center"><h3 class="spinner-error">No solves yet</h3></div>'
+                '<div class="text-center"><h3 class="spinner-error">还没有排名噢</h3></div>'
             );
             return;
         }
