@@ -44,7 +44,7 @@ function scoregraph() {
         ];
 
         var layout = {
-            title: 'Score over Time',
+            title: '时间/积分表',
             paper_bgcolor: 'rgba(0,0,0,0)',
             plot_bgcolor: 'rgba(0,0,0,0)',
             hovermode: 'closest',
@@ -87,7 +87,7 @@ function keys_percentage_graph() {
         }];
 
         var layout = {
-            title: 'Key Percentages',
+            title: '提交成功率',
             paper_bgcolor: 'rgba(0,0,0,0)',
             plot_bgcolor: 'rgba(0,0,0,0)',
             legend: {
@@ -136,7 +136,7 @@ function category_breakdown_graph() {
         }];
 
         var layout = {
-            title: 'Category Breakdown',
+            title: '解题类型百分比',
             paper_bgcolor: 'rgba(0,0,0,0)',
             plot_bgcolor: 'rgba(0,0,0,0)',
             legend: {
