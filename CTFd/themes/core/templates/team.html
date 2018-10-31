@@ -20,7 +20,7 @@
 
 	{% if score_frozen %}
 	<div class="row">
-		<h1 class="text-center">Scoreboard has been frozen.</h1>
+		<h1 class="text-center">积分榜被冻结</h1>
 	</div>
 	{% endif %}
 
@@ -83,10 +83,10 @@
 			<table class="table table-striped">
 				<thead>
 					<tr>
-						<td><b>Challenge</b></td>
-						<td class="d-none d-md-block d-lg-block"><b>Category</b></td>
-						<td><b>Value</b></td>
-						<td><b>Time</b></td>
+						<td><b>题目</b></td>
+						<td class="d-none d-md-block d-lg-block"><b>类型</b></td>
+						<td><b>分数</b></td>
+						<td><b>时间</b></td>
 					</tr>
 				</thead>
 				<tbody>
@@ -102,7 +102,7 @@
 		</div>
 	</div>
 	{% else %}
-		<div class="text-center"><h3 class="spinner-error">No solves yet</h3></div>
+		<div class="text-center"><h3 class="spinner-error">还没有积分</h3></div>
 	{% endif %}
 	{% endif %}
 </div>
